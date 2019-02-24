@@ -56,3 +56,8 @@ Please visit http://localhost:8080/oss to view detail information.
 ### FaQ
 
 * Please upload a "ok.txt" under your buket for health indicator.
+###
+maven package
+
+
+mvn install:install-file -DgroupId=org.mvnsearch.boot -DartifactId=spring-boot-starter-oss -Dversion=1.0.0-SNAPSHOT -Dpackaging=jar -Dfile=target/spring-boot-starter-oss-1.0.0-SNAPSHOT.jar

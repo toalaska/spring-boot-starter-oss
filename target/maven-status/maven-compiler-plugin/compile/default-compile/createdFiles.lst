@@ -1,0 +1,10 @@
+org\mvnsearch\boot\oss\AliyunOssProperties.class
+org\mvnsearch\boot\oss\impl\FileStorageServiceOssImpl.class
+org\mvnsearch\boot\oss\ByteArrayDataSource.class
+org\mvnsearch\boot\oss\AliyunOssMetrics.class
+org\mvnsearch\boot\oss\AliyunOssHealthIndicator.class
+org\mvnsearch\boot\oss\AliyunOssAutoConfiguration.class
+org\mvnsearch\boot\oss\AliyunOssEndpoint.class
+META-INF\spring-configuration-metadata.json
+org\mvnsearch\boot\oss\ByteArrayDataSource$DSByteArrayOutputStream.class
+org\mvnsearch\boot\oss\FileStorageService.class

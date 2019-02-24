@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "endpoints.aliyunoss",
+      "type": "org.mvnsearch.boot.oss.AliyunOssEndpoint",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssEndpoint"
+    },
+    {
+      "name": "spring.oss",
+      "type": "org.mvnsearch.boot.oss.AliyunOssProperties",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "endpoints.aliyunoss.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssEndpoint"
+    },
+    {
+      "name": "endpoints.aliyunoss.id",
+      "type": "java.lang.String",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssEndpoint"
+    },
+    {
+      "name": "endpoints.aliyunoss.sensitive",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssEndpoint"
+    },
+    {
+      "name": "spring.oss.bucket",
+      "type": "java.lang.String",
+      "description": "default bucket",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssProperties"
+    },
+    {
+      "name": "spring.oss.endpoint",
+      "type": "java.lang.String",
+      "description": "endpoint",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssProperties",
+      "defaultValue": "http://oss.aliyuncs.com"
+    },
+    {
+      "name": "spring.oss.key",
+      "type": "java.lang.String",
+      "description": "aliyun access key",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssProperties"
+    },
+    {
+      "name": "spring.oss.secret",
+      "type": "java.lang.String",
+      "description": "aliyun access secret",
+      "sourceType": "org.mvnsearch.boot.oss.AliyunOssProperties"
+    }
+  ],
+  "hints": []
+}
